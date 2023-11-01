@@ -1,0 +1,46 @@
+.text-right {
+    text-align: right;
+  }
+
+.transparent-bg {
+  background-image: url('C:/Users/Lidija/Desktop/GettyImages-1208790364-1024x576.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
+
+.proizvodi-image {
+  background-image: url('C:/Users/Lidija/Desktop/49871_gettyimages-1203599963_f-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
+
+
+.porudzbine-image {
+  background-image: url('C:/Users/Lidija/Desktop/korpa-potrosacka.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
+
+.komentari-image {
+  background-image: url('C:/Users/Lidija/Desktop/depositphotos_421986710-stock-illustration-speech-bubbles-set-vector-illustration.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
+
+.kategorije-image {
+  background-image: url('C:/Users/Lidija/Desktop/2237.jpg_wh8601.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
+
+.prodavci-image {
+  background-image: url('C:/Users/Lidija/Desktop/group-medieval-villagers-white-background_1639-25945.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255); 
+}
