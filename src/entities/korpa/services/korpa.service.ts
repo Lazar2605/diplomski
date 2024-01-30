@@ -28,6 +28,8 @@ export class KorpaService {
             throw new NotFoundException("Korpa nije pronađena!");
         }
         return korpa;
+
+        
     }
 
     async dodajProizvodUKorpuZaKorisnika(id: string, proizvodId: string, kvantitet: number, novaCena: number) {
