@@ -90,7 +90,7 @@ export class KorpaService {
     }
 
     async kreirajKorpuZaGosta(hash: string) {
-        return new this.korpaModel({ hashZaNelogovanogKupca: hash });
+        return new this.korpaModel({ hashZaNelogovanogKupca: hash, ukupnaCena: 0 }).save();
     }
 
     async izmeniKvantitetGost(hash: string, kvantitet: number, proizvodId: string) {
@@ -109,7 +109,12 @@ export class KorpaService {
                 return;
             }
         })
+        console.log(korpa);
         if (stariKvantitet > kvantitet)
+            console.log(korpa.ukupnaCena);
+            console.log(stariKvantitet);
+            console.log(kvantitet);
+            console.log(proizvod.cena.iznos);
             korpa.ukupnaCena -= Math.abs(stariKvantitet - kvantitet) * proizvod.cena.iznos;
         if(kvantitet > stariKvantitet)
             korpa.ukupnaCena += Math.abs(stariKvantitet - kvantitet) * proizvod.cena.iznos;
